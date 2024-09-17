@@ -1,0 +1,17 @@
+
+  <h2>Send Issue to Jira</h2>
+  <form (ngSubmit)="submitIssue()">
+    <div><label>Issue Summary</label></div>
+    <div>
+      <input type="text" id="summary" [(ngModel)]="issueSummary" name="summary" placeholder="Issue Summary" required />
+    </div>
+
+    <div>
+      <label>Issue Description</label>
+    </div>
+    <div>
+      <textarea id="description" [(ngModel)]="issueDescription" name="description"  rows="3" required placeholder="Issue Description"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary" >Submit</button>
+  </form>
+

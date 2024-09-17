@@ -1,0 +1,8 @@
+{
+  "/rest/api/3": {
+    "target": "https://mtsr2009.atlassian.net",
+    "secure": true,
+    "changeOrigin": true,
+    "logLevel": "debug"
+  }
+}
